@@ -1,5 +1,5 @@
 {
 	"autoload":{
-		"classmap":["config/","controller/"]
+		"classmap":["config/","controller/","model/"]
 	}
 }

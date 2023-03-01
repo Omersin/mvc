@@ -10,6 +10,8 @@ class ComposerStaticInitfa7c753830eb16783fa4a8a1cfaf3706
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Controller' => __DIR__ . '/../..' . '/config/controller.php',
         'IndexController' => __DIR__ . '/../..' . '/controller/IndexController.php',
+        'IndexModel' => __DIR__ . '/../..' . '/model/IndexModel.php',
+        'Model' => __DIR__ . '/../..' . '/config/model.php',
         'Routing' => __DIR__ . '/../..' . '/config/routing.php',
     );
 

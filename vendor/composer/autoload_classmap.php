@@ -9,5 +9,7 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Controller' => $baseDir . '/config/controller.php',
     'IndexController' => $baseDir . '/controller/IndexController.php',
+    'IndexModel' => $baseDir . '/model/IndexModel.php',
+    'Model' => $baseDir . '/config/model.php',
     'Routing' => $baseDir . '/config/routing.php',
 );

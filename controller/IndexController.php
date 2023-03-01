@@ -1,7 +1,7 @@
 <?php
 class IndexController extends Controller {
 	public function index(){
-		$data = 'SELAMLAR';
+		$data = $this->model('IndexModel')->getHelloWord();
 		$this->view('index', $data);
 	}
 
