@@ -12,6 +12,8 @@ class ComposerStaticInitfa7c753830eb16783fa4a8a1cfaf3706
         'IndexController' => __DIR__ . '/../..' . '/controller/IndexController.php',
         'IndexModel' => __DIR__ . '/../..' . '/model/IndexModel.php',
         'Model' => __DIR__ . '/../..' . '/config/model.php',
+        'ProductController' => __DIR__ . '/../..' . '/controller/ProductController.php',
+        'ProductModel' => __DIR__ . '/../..' . '/model/ProductModel.php',
         'Routing' => __DIR__ . '/../..' . '/config/routing.php',
     );
 

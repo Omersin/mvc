@@ -11,5 +11,7 @@ return array(
     'IndexController' => $baseDir . '/controller/IndexController.php',
     'IndexModel' => $baseDir . '/model/IndexModel.php',
     'Model' => $baseDir . '/config/model.php',
+    'ProductController' => $baseDir . '/controller/ProductController.php',
+    'ProductModel' => $baseDir . '/model/ProductModel.php',
     'Routing' => $baseDir . '/config/routing.php',
 );
