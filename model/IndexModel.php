@@ -1,11 +1,7 @@
 <?php
 class IndexModel extends Model {
-    public function getHelloWord(){
-        return 'Hello Word...';
+    public function index(){
+        return 'IndexControllerdan buraya geldiniz, burası IndexModel bu veriler $data değişkeniyle view klasöründeki index.php ye gönderiliyor...';
     }
 
-    public function list(){
-      $query = $this->pdo->query('SELECT * FROM `qp_test` WHERE 1')->fetchAll(PDO::FETCH_ASSOC);
-      return $query;
-    }
 }

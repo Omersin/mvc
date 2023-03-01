@@ -1,8 +1,12 @@
-<h1><?php
-foreach ($data as $key => $value) {
-	print $value['name'].'<br>';
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<?php print $data; ?>
 
-
-
- ?></h1>
+</body>
+</html>
