@@ -1,1 +1,1 @@
-<h1><?php print $data; ?></h1>
+<h1><?php print_r($data); ?></h1>
