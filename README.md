@@ -1,2 +1,2 @@
 ﻿# php-routing
-php rota tanımlaması için bir örnektir.
+ Composer kullanılarak hazirlanmış, php rota tanımlaması için bir örnektir.
