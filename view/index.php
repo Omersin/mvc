@@ -7,6 +7,5 @@
 </head>
 <body>
 	<?php print $data; ?>
-
 </body>
 </html>
