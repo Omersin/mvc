@@ -4,7 +4,9 @@ class Routing {
     { 
         $URL = explode('&', ltrim(str_replace([basename($_SERVER['SCRIPT_NAME']), dirname($_SERVER['SCRIPT_NAME'])], '',$_SERVER['REQUEST_URI']),'/'));
         if ($URL[0] == '') {
+            //default controller
             $controller = 'IndexController';
+            //default model
             $method     = 'index';
             call_user_func_array([new $controller, $method], []);
         } else {
