@@ -6,6 +6,6 @@
 	<title></title>
 </head>
 <body>
-	<?php print $data; ?>
+	<?php var_dump($data); ?>
 </body>
 </html>
